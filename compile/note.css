@@ -1,0 +1,218 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div .box {
+  background-color: #1269b5;
+}
+
+div .box1 {
+  background-color: #1269b5;
+}
+
+.nav {
+  height: 100px;
+}
+.nav ul {
+  margin: 0;
+}
+.nav ul li {
+  float: left;
+  list-style: none;
+  padding: 5px;
+}
+.nav ul li:hover {
+  background-color: #0d2f7e;
+  color: #fff;
+}
+.nav .nav-text {
+  font-size: 15px;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+.alert-warning a {
+  color: #66512c ；;
+}
+
+.alert-info {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+}
+.alert-info a {
+  color: #66512c ；;
+}
+
+.alert, .alert-info {
+  padding: 15px;
+}
+
+.alert a, .alert-info a {
+  font-weight: bold;
+}
+
+.alert-info {
+  background-color: #d9edf7;
+}
+
+/*1. comment 
+    *comment*/
+/*! 3. comment*/
+/*
+  2+8 10
+  2*8 16
+  8/2 8/2
+  (8/2) 4
+  5px + 5px 10px
+  5px -2 3px
+  5px*2 10px
+  5px *2px 10pxpx
+  (10px/2) 5px
+  (10px/5px) 2
+  3 + 2*5px 13px
+  abs(10) 10
+  abs(10px) 10px
+  abs(-10px) 10px
+  round(3.5) 3
+  round(3.2) 
+  ceil(3.2)
+  ceil(3.1)
+  floor(3.6)
+  percentage(650px /1000px) %65
+  min(1,2,3) 1
+  max(1,2,3) 3
+*/
+/*
+"ning" + "hao"  "ninghao"
+"ning" + "hao" "ninghao"
+ning/hao "ninghao"
+ning *hao  error!
+$greeting:"ninghao"
+to-upper-case($greeting) "HELLOW NINGHAO"
+str-length($greeting) 13
+str-index($greeting) 1 from 1!
+str-insert($greeting,".net",14) "Hellow ninghao.net" 
+*/
+body {
+  background-color: yellow;
+}
+
+body {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+body {
+  background-color: yellow;
+}
+
+body {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+body {
+  background-color: #00ff48;
+}
+
+body {
+  background-color: #ff9999;
+}
+
+body {
+  background-color: #660000;
+}
+
+body {
+  background-color: red;
+}
+
+body {
+  background-color: #d92626;
+}
+
+body {
+  background-color: rgba(234, 127, 5, 0.8);
+}
+
+body {
+  background-color: rgba(186, 19, 80, 0.7);
+}
+
+/*
+length(5px 10px) 2
+nth(5px 10px, 1) 5px
+index(1px solid red, solid) 1
+append(5px 10px,5px) (5px 10px 5px)
+join(5px 10px 5px 0) (5px 10px 5px 0)
+*/
+/*
+$colors:(light:#ffffff, dark:#000000)
+length($colors) 2
+map-get($colors,dark) #000000
+map-keys($colors) ("light","dark")
+map-values($colors) (#ffffff, #000000)
+map-has-key($colors,"light") true
+map-merge($colors,light-gray:#e5e5e5) (light:#ffffff, dark:#000000, gray:#e5e5e5)
+map-remove($colors,light,dark)  (gray:#e5e5e5)
+*/
+/*
+5px>3px true
+*/
+.alert-info {
+  border-color: #ccc;
+}
+
+body {
+  background-color: red;
+}
+
+.col-1 {
+  width: 25%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 75%;
+}
+
+.col-4 {
+  width: 100%;
+}
+
+.icon-success {
+  background-image: url(images/icons/success.png);
+}
+
+.icon-error {
+  background-image: url(images/icons/error.png);
+}
+
+.icon-warning {
+  background-image: url(images/icons/warning.png);
+}
+
+.item-6 {
+  width: 30px;
+}
+
+.item-4 {
+  width: 20px;
+}
+
+.item-2 {
+  width: 10px;
+}
+
+/*# sourceMappingURL=note.css.map */
