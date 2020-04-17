@@ -233,10 +233,10 @@ $i:6;
 $colors:(light:#ffffff, dark:#000000);
 
 @function color($key){
-  @if not map-has-key($colors, $key){
-    @warn "couldn't find #{$key} in $colors"
+  // @if not map-has-key($colors, $key){
+    // @warn "couldn't find #{$key} in $colors"
     // @error "couldn't find #{$key} in $colors"
-  }
+  // }
   @return map-get($colors, $key);
 }
 
@@ -244,6 +244,17 @@ body{
   background-color: color(gray);
 }
 
+//placeholder
+%button-style{
+  font-size:14px;
+}
+.test{
+  color:red;
+}
+.test1{
+  @extend %button-style;
+  color:red;
+}
 
 
 
